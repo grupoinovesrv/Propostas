@@ -1,0 +1,188 @@
+@import url('./reset.min.css');
+@import url('./style.css');
+.body{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+   }
+   
+   .principal {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./img/proposta-comercial-1024x676.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    animation-name: anima1;
+    animation-duration: 2.5s;
+    animation-delay: -0.5s;
+    animation-timing-function: ease-in-out;
+   }
+   .logoContainer {
+    width: 100%;
+    animation-name: anima3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+   }
+   .logo {
+    width: 100%;
+    cursor: pointer;
+    transition: 1s;
+    animation-name: anima2;
+    animation-duration: 8s;
+    animation-delay: -3s;
+   }
+   .logo:hover {
+    opacity: 0.75;
+   }
+   @keyframes anima1 {
+    0% {
+    width: 1vw;
+    height: 1vh;
+    }
+    25% {
+    width: 1vw;
+    height: 1vh;
+    }
+    95% {
+    width: 110vw;
+    height: 110vh;
+    }
+    100% {
+    width: 100vw;
+    height: 100vh;
+    }
+   }
+   @keyframes anima2 {
+    0% {
+    opacity: 0;
+    }
+    80% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+   }
+   @keyframes anima3 {
+    0% {
+    padding-top: 0vh;
+    }
+    50% {
+    padding-top: 1vh;
+    }
+    100% {
+    padding-top: 0vh;
+    }
+   }   
+   .font{
+   font-size: 500%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+   }
+   h2{
+
+    color: #1d2124;
+    font-size: 200%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   h3{
+
+    color: #1d2124;
+    font-size: 180%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   .header2 {
+    font-family: "Montserrat", sans-serif;
+    color: #fbfdff;
+    font-weight: 300;
+  }
+  .inove{
+    color: rgb(0, 170, 147);
+  }
+  
+  .header2.bg-success-gradiant {
+ 
+  }
+  
+  .header2 .font-12 {
+    font-size: 12px;
+  }
+  
+  .header2 .dropdown-item {
+    padding: 8px 1rem;
+    color: #8d97ad;
+  }
+  
+  .header2 .h2-nav .navbar-nav .nav-item .nav-link {
+    padding: 12px 0px;
+    color: #ffffff;
+    font-weight: 400;
+  }
+  
+  .header2 .h2-nav .navbar-nav .nav-item .nav-link:hover {
+    color: #325f75;
+  }
+  
+  .header2 .h2-nav .navbar-nav .nav-item {
+    margin: 0 20px;
+  }
+  
+  @media (min-width: 1024px) {
+    .header2 .navbar-nav > .dropdown .dropdown-menu {
+      min-width: 210px;
+      margin-top: 0px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .header2 .dropdown-submenu:hover > .dropdown-menu {
+      display: block;
+    }
+  }
+  
+  .header2 .dropdown-toggle::after {
+    display: none;
+  }
+  
+  @media (min-width: 1024px) {
+    .header2 .hover-dropdown .navbar-nav > .dropdown:hover > .dropdown-menu {
+      display: block;
+      margin-top: 0px;
+    }
+  }
+  
+  .header2 .btn-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+  }
+  
+  .header2 .btn-dark:hover {
+    color: #fff;
+    background-color: #426486;
+    border-color: #426486;
+  }
+  
+  .header2 .h2-nav .navbar-nav .nav-item .btn {
+    opacity: 0.5;
+  }
+   
+  .header2 .h2-nav .navbar-nav .nav-item .btn:hover {
+    opacity: 1;
+  }
+  
+  .header2 .dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-left: 0;
+    border-radius: 0.25rem;
+    display: none;
+  }
+  
+   
